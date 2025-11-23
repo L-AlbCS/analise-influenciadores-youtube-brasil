@@ -2,8 +2,6 @@
 
 ## 📊 Dashboard de Visualizações
 
-![Dashboard Completo](visualizacoes/dashboard_completo.png)
-
 ### Top 10 Canais por Inscritos
 ![Top 10 Inscritos](visualizacoes/grafico_top10_inscritos.png)
 
