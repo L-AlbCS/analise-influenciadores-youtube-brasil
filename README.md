@@ -1,25 +1,11 @@
 # 📊 Análise Estratégica de Influenciadores - YouTube Brasil 2023
 
-## 📊 Dashboard de Visualizações
-
-### Top 10 Canais por Inscritos
-![Top 10 Inscritos](visualizacoes/grafico_top10_inscritos.png)
-
-### Matriz BCG - Estratégia de Investimento
-![Matriz BCG](visualizacoes/matriz_bcg.png)
-
-### Receita e Lucratividade
-![Receita](visualizacoes/grafico_receita.png)
-
-### Crescimento e Momentum
-![Momentum](visualizacoes/grafico_momentum.png)
-
 ## 🎯 Visão Geral do Projeto
 
 Este estudo de caso analisa os **57 principais canais brasileiros do YouTube** para identificar oportunidades estratégicas de marketing de influência, fornecendo insights acionáveis sobre alcance, engajamento, receita e crescimento.
 
 **Cliente Fictício:** BrandConnect Agency - Agência de Marketing de Influência  
-**Analista:** Luiz Alberto Costa de Souza 
+**Analista de dados Júnior:** Luiz Alberto Costa de Souza 
 **Data:** Novembro 2024  
 **Ferramentas:** Google Sheets, Kaggle, Google Slides
 
@@ -27,18 +13,18 @@ Este estudo de caso analisa os **57 principais canais brasileiros do YouTube** p
 
 ## 📋 Sumário
 
-1. [Definição do Problema](#problema)
-2. [Preparação dos Dados](#preparacao)
-3. [Processamento e Limpeza](#processamento)
-4. [Análise Descritiva](#analise)
-5. [Análises Avançadas](#avancadas)
-6. [Visualizações](#visualizacoes)
-7. [Insights e Recomendações](#insights)
-8. [Conclusão](#conclusao)
+1. Definição do Problema.
+2. Preparação dos Dados.
+3. Processamento e Limpeza.
+4. Análise Descritiva.
+5. Análises Avançadas.
+6. Visualizações.
+7. Insights e Recomendações.
+8. Conclusão.
 
 ---
 
-## 🎯 1. DEFINIÇÃO DO PROBLEMA {#problema}
+## 🎯 1. DEFINIÇÃO DO PROBLEMA 
 
 ### Contexto de Negócio
 
@@ -67,7 +53,7 @@ A BrandConnect Agency deseja expandir suas operações no mercado brasileiro de 
 
 ---
 
-## 📥 2. PREPARAÇÃO DOS DADOS {#preparacao}
+## 📥 2. PREPARAÇÃO DOS DADOS 
 
 ### Fonte de Dados
 
@@ -91,12 +77,12 @@ A BrandConnect Agency deseja expandir suas operações no mercado brasileiro de 
 | Coluna | Tipo | Descrição |
 |--------|------|-----------|
 | rank | Numérico | Posição global do canal |
-| Youtuber | Texto | Nome do canal |
+| youtuber | Texto | Nome do canal |
 | subscribers | Numérico | Número de inscritos |
 | video views | Numérico | Visualizações totais acumuladas |
 | category | Texto | Categoria/nicho do canal |
 | uploads | Numérico | Quantidade de vídeos publicados |
-| Country | Texto | País (Brazil) |
+| country | Texto | País (Brazil) |
 | channel_type | Texto | Tipo de canal |
 | video_views_for_the_last_30_days | Numérico | Views recentes (crescimento) |
 | lowest_monthly_earnings | Numérico | Receita mensal mínima estimada (USD) |
@@ -104,13 +90,13 @@ A BrandConnect Agency deseja expandir suas operações no mercado brasileiro de 
 | lowest_yearly_earnings | Numérico | Receita anual mínima estimada (USD) |
 | highest_yearly_earnings | Numérico | Receita anual máxima estimada (USD) |
 | created_date | Data | Data de criação do canal |
-| Views_por_Inscrito | Calculado | Taxa de engajamento |
-| Receita_Media_Mensal | Calculado | Média de receita mensal |
-| Tamanho_Canal | Calculado | Classificação por tamanho |
+| views_por_Inscrito | Calculado | Taxa de engajamento |
+| receita_media_mensal | Calculado | Média de receita mensal |
+| tamanho_canal | Calculado | Classificação por tamanho |
 
 ---
 
-## 🧹 3. PROCESSAMENTO E LIMPEZA {#processamento}
+## 🧹 3. PROCESSAMENTO E LIMPEZA 
 
 ### Problemas Identificados
 
@@ -158,7 +144,7 @@ Classificacao_BCG = [Fórmula complexa baseada em engajamento e crescimento]
 
 ---
 
-## 📊 4. ANÁLISE DESCRITIVA {#analise}
+## 📊 4. ANÁLISE DESCRITIVA 
 
 ### Estatísticas Gerais
 
@@ -212,7 +198,7 @@ Classificacao_BCG = [Fórmula complexa baseada em engajamento e crescimento]
 
 ---
 
-## 🔬 5. ANÁLISES AVANÇADAS {#avancadas}
+## 🔬 5. ANÁLISES AVANÇADAS
 
 ### Análise 1: Eficiência de Produção
 
@@ -283,7 +269,7 @@ Classificacao_BCG = [Fórmula complexa baseada em engajamento e crescimento]
 
 ---
 
-## 📈 6. VISUALIZAÇÕES {#visualizacoes}
+## 📈 6. VISUALIZAÇÕES
 
 ### Dashboard Criado
 
@@ -306,7 +292,7 @@ Classificacao_BCG = [Fórmula complexa baseada em engajamento e crescimento]
 
 ---
 
-## 💡 7. INSIGHTS E RECOMENDAÇÕES {#insights}
+## 💡 7. INSIGHTS E RECOMENDAÇÕES 
 
 ### Principais Insights
 
@@ -376,7 +362,7 @@ Classificacao_BCG = [Fórmula complexa baseada em engajamento e crescimento]
 
 ---
 
-## 🎓 8. CONCLUSÃO {#conclusao}
+## 🎓 8. CONCLUSÃO 
 
 ### Resultados Alcançados
 
@@ -444,7 +430,8 @@ Este framework pode ser aplicado a:
 
 ## 📞 Contato
 
-**Analista:** Luiz Alberto Costa de Souza
+**Analista de dados Júnior:** Luiz Alberto Costa de Souza.
+
 **Email:** luizalbertocosta01@gmail.com.
 
 
