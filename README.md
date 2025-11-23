@@ -282,7 +282,6 @@ Classificacao_BCG = [Fórmula complexa baseada em engajamento e crescimento]
 5. **Distribuição por Engajamento** - Gráfico de pizza
 6. **Análise por Categoria** - Gráfico de colunas agrupadas
 7. **Eficiência vs Receita** - Gráfico de dispersão
-8. **Longevidade vs Sucesso** - Gráfico de dispersão
 
 **Características:**
 - Design limpo e profissional
