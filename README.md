@@ -117,24 +117,24 @@ A BrandConnect Agency deseja expandir suas operações no mercado brasileiro de 
 
 **Passo 3: Criação de colunas calculadas**
 
-
+```
 Views_por_Inscrito = video views / subscribers
 Receita_Media_Mensal = (lowest_monthly_earnings + highest_monthly_earnings) / 2
 Tamanho_Canal = SE(subscribers >= 10M, "Mega", 
                     SE(subscribers >= 1M, "Grande",
                     SE(subscribers >= 100K, "Médio", "Pequeno")))
-
+```
 
 **Passo 4: Colunas adicionais para análises avançadas**
 
-
+```
 Inscritos_por_Video = subscribers / uploads
 CPM_por_Milhao = (Receita_Media_Mensal / video_views_for_the_last_30_days) * 1.000.000
 Momentum_Percentual = video_views_for_the_last_30_days / video views
 Anos_no_YouTube = 2023 - ANO(created_date)
 Classificacao_BCG = [Fórmula complexa baseada em engajamento e crescimento]
 
-
+```
 ### Validação de Dados
 
 - ✅ Sem valores negativos em métricas numéricas
